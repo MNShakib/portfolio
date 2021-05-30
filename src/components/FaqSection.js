@@ -63,6 +63,7 @@ const FaqSection = () => {
 
 const Faq = styled(About)`
   display: block;
+  overflow-y: hidden !important;
   span {
     display: block;
   }

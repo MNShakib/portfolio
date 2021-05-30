@@ -16,6 +16,9 @@ body{
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
 }
+body>*{
+    width: 100%;
+}
 button{
     font-weight: bold;
     font-size: 1.1.rem;
