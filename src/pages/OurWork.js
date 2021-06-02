@@ -1,12 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 // import { Link } from "react-router-dom";
+import Card from "./Card";
 //css
 import "./about.css";
 //Images
-import athlete from "../img/athlete-small.png";
-import theracer from "../img/theracer-small.png";
-import goodtimes from "../img/goodtimes-small.png";
+import burgerBuilderApp from "../img/burger-builder-app.png";
+import reactPlayer from "../img/react-player.png";
+import ignite from "../img/ignite.png";
+import zoom_clone from "../img/zoom-clone00.png";
+import gdocs from "../img/google_docs.png";
+
+// import "./bg.svg";
 //Animations
 import { motion } from "framer-motion";
 import {
@@ -24,13 +29,7 @@ const OurWork = () => {
   // const [element, controls] = useScroll();
   // const [element2, controls2] = useScroll();
   return (
-    <Work
-      style={{ background: "#fff" }}
-      exit="exit"
-      variants={pageAnimation}
-      initial="hidden"
-      animate="show"
-    >
+    <Work exit="exit" variants={pageAnimation} initial="hidden" animate="show">
       <motion.div variants={sliderContainer}>
         <Frame1 variants={slider}></Frame1>
         <Frame2 variants={slider}></Frame2>
@@ -70,86 +69,32 @@ const OurWork = () => {
       <ScrollTop /> */}
       {/* <div className="body"> */}
       <section>
-        <div className="card">
-          <div className="box">
-            <div className="imgBx">
-              <img src={goodtimes} alt="goodtimes" />
-            </div>
-            <div className="contentBx">
-              <div>
-                <h2>Description</h2>
-                <p>
-                  Lorem ipsum dolor sit amet.lorem Ipsum lorem ipsum dolor sit
-                  amet, consectet
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="box">
-            <div className="imgBx">
-              <img src={theracer} alt="goodtimes" />
-            </div>
-            <div className="contentBx">
-              <div>
-                <h2>Description</h2>
-                <p>
-                  Lorem ipsum dolor sit amet.lorem Ipsum lorem ipsum dolor sit
-                  amet, consectet
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="box">
-            <div className="imgBx">
-              <img src={athlete} alt="goodtimes" />
-            </div>
-            <div className="contentBx">
-              <div>
-                <h2>Description</h2>
-                <p>
-                  Lorem ipsum dolor sit amet.lorem Ipsum lorem ipsum dolor sit
-                  amet, consectet
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="box">
-            <div className="imgBx">
-              <img src={theracer} alt="goodtimes" />
-            </div>
-            <div className="contentBx">
-              <div>
-                <h2>Description</h2>
-                <p>
-                  Lorem ipsum dolor sit amet.lorem Ipsum lorem ipsum dolor sit
-                  amet, consectet
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="box">
-            <div className="imgBx">
-              <img src={athlete} alt="goodtimes" />
-            </div>
-            <div className="contentBx">
-              <div>
-                <h2>Description</h2>
-                <p>
-                  Lorem ipsum dolor sit amet.lorem Ipsum lorem ipsum dolor sit
-                  amet, consectet
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Card
+          image={burgerBuilderApp}
+          title="Burger Builder App"
+          description=" Burger builder app let you order coustomize burger with
+                  authentication functionality."
+        />
+        <Card
+          image={reactPlayer}
+          title="React Player"
+          description="Play your favorite song with the mood."
+        />
+        <Card
+          image={ignite}
+          title="Ignite"
+          description="Search and see the details of all world games."
+        />
+        <Card
+          image={zoom_clone}
+          title="Zoom Clone"
+          description="Zoom Clone is a video conferencing tool that lets you host virtual one-on-one or team meetings easily.. Add people by simply sharing the url."
+        />
+        <Card
+          image={gdocs}
+          title="Google Docs Clone"
+          description="Google Docs Clone is a very powerful real-time collaboration and document authoring tool. Multiple users can edit a document at the same time, while seeing each others' changes instantaneously."
+        />
       </section>
       {/* </div> */}
     </Work>
@@ -160,6 +105,10 @@ const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='0.55' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='scale(16.6) translate(-939.76 -704.82)'%3E%3Cuse fill='%23fafafa' href='%23s' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='2'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='scale(16.6) translate(-939.76 -704.82)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(16.6) translate(-939.76 -704.82)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(16.6) translate(-939.76 -704.82)'%3E%3Cg fill='%23e5e5e5'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='scale(16.6) translate(-939.76 -704.82)'%3E%3Cg fill='%23ffffff'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23e0e0e0'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='scale(16.6) translate(-939.76 -704.82)'%3E%3Cg fill='%2323d997'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='scale(16.6) translate(-939.76 -704.82)'%3E%3Cg fill='%2323d997'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='scale(16.6) translate(-939.76 -704.82)'%3E%3Cg fill='%2323d997'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
   @media (max-width: 1200px) {
     padding: 0rem 0rem;
   }
@@ -183,51 +132,6 @@ const Work = styled(motion.div)`
 // const Hide = styled.div`
 //   overflow: hidden;
 // `;
-
-// const Body = styled(motion.div)`
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   min-height: 100vh;
-// `;
-// const Section = styled(motion.section)`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   flex-wrap: wrap;
-//   transform-style: preserve-3d;
-//   width: 1100px;
-// `;
-// const Card = styled(motion.div)`
-//   position: relative;
-//   width: 320px;
-//   height: 320px;
-//   margin: 20px;
-//   transform-style: preserve-3d;
-//   perspective: 1000px;
-// `;
-// const Box = styled(motion.div)`
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   transform-style: preserve-3d;
-//   transition: 1s ease;
-// `;
-// const ImgBox = styled(motion.div)`
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   transform-style: preserve-3d;
-//   transition: 1s ease;
-// `;
-// const ContentBox = styled(motion.div)``;
 
 //Frame Animation
 const Frame1 = styled(motion.div)`

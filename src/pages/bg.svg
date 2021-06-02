@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+    <g mask="url(&quot;#SvgjsMask1009&quot;)" fill="none">
+        <rect width="1440" height="560" x="0" y="0" fill="rgba(26, 27, 28, 1)"></rect>
+        <g mask="url(&quot;#SvgjsMask1011&quot;)">
+            <path d="M752 464L752 432L752 400L752 368M752 528L720 496L720 464L720 432M720 560L720 528M720 592L720 560L752 528L752 496L752 464L784 432L784 400" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M776 400 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM744 368 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM712 432 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM712 528 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M752 592L752 560L784 528L784 496L784 464L816 432" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M808 432 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M688 592L688 560L688 528L688 496" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M680 496 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M784 592L784 560L816 528L816 496L816 464" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M808 464 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M656 304L624 272L624 240M656 400L624 368L624 336L624 304M656 464L688 432L688 400L688 368M656 592L656 560L656 528L656 496L656 464L656 432L656 400L656 368L656 336L656 304L656 272L656 240" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M648 240 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM616 240 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM616 304 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM680 368 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M816 592L816 560L848 528" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M840 528 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M592 368L560 336M624 496L624 464L624 432L624 400M592 304L560 272M624 592L624 560L624 528L624 496L592 464L592 432L592 400L592 368L592 336L592 304L592 272L592 240" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M584 240 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM552 336 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM616 400 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM552 272 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M880 560L880 528M912 432L912 400L912 368L912 336M912 496L880 464L880 432M848 592L880 560L912 528L912 496L912 464L912 432L880 400L880 368L880 336L880 304L880 272" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M872 272 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM872 528 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM904 336 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM872 432 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M592 528L592 496M592 592L592 560L592 528L560 496" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M552 496 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM584 496 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M560 592L560 560L560 528L528 496L528 464" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M520 464 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M976 464L944 432L944 400L944 368M1008 400L976 368L976 336L976 304M1008 336L1040 304M912 592L944 560L944 528L944 496L976 464L976 432L1008 400L1008 368L1008 336L1008 304L1008 272" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M1000 272 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM936 368 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM968 304 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM1032 304 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M528 592L528 560L528 528L496 496L496 464" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M488 464 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M464 432L496 400M496 592L496 560L496 528L464 496L464 464L464 432L464 400" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M456 400 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM488 400 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M976 592L976 560L976 528L976 496" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M968 496 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M464 592L464 560L464 528L432 496L432 464L432 432" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M424 432 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M1008 592L1008 560L1008 528" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M1000 528 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M368 432L400 400L400 368L400 336L400 304M432 592L432 560L432 528L400 496L400 464L368 432L368 400" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M360 400 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM392 304 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M1040 464L1008 432M1040 496L1008 464M1040 592L1040 560L1040 528L1040 496L1040 464L1040 432" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M1032 432 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM1000 432 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM1000 464 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M304 400L336 368M304 368L304 336L304 304L304 272M272 304L272 272M400 592L400 560L400 528L368 496L368 464L336 432L304 400L304 368L272 336L272 304L240 272" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M232 272 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM328 368 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM296 272 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM264 272 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M1072 432L1104 400M1072 528L1104 496L1104 464L1104 432M1072 592L1072 560L1072 528L1072 496L1072 464L1072 432L1072 400" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M1064 400 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM1096 400 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM1096 432 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+            <path d="M368 560L336 528L304 496M368 592L368 560L368 528L336 496L336 464L304 432L272 400L272 368L240 336" stroke="url(#SvgjsLinearGradient1010)" stroke-width="5.33"></path>
+            <path d="M232 336 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0zM296 496 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0z" fill="url(#SvgjsLinearGradient1010)"></path>
+        </g>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1009">
+            <rect width="1440" height="560" fill="#ffffff"></rect>
+        </mask>
+        <linearGradient x1="0" y1="355.6" x2="1440" y2="355.6" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient1010">
+            <stop stop-color="#3a7cc3" offset="0"></stop>
+            <stop stop-color="rgba(144, 186, 171, 1)" offset="0.34"></stop>
+            <stop stop-color="rgba(35, 217, 151, 1)" offset="0.68"></stop>
+            <stop stop-color="rgba(35, 217, 151, 1)" offset="0.72"></stop>
+            <stop stop-color="rgba(35, 217, 151, 1)" offset="0.96"></stop>
+            <stop stop-color="rgba(144, 186, 171, 1)" offset="1"></stop>
+        </linearGradient>
+        <mask id="SvgjsMask1011">
+            <rect width="1440" height="560" fill="white"></rect>
+            <path d="M780 400 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM748 368 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM716 432 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM716 528 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M812 432 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M684 496 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M812 464 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M652 240 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM620 240 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM620 304 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM684 368 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M844 528 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M588 240 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM556 336 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM620 400 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM556 272 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M876 272 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM876 528 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM908 336 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM876 432 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M556 496 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM588 496 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M524 464 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M1004 272 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM940 368 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM972 304 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM1036 304 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M492 464 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M460 400 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM492 400 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M972 496 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M428 432 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M1004 528 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M364 400 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM396 304 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M1036 432 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM1004 432 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM1004 464 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M236 272 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM332 368 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM300 272 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM268 272 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M1068 400 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM1100 400 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM1100 432 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+            <path d="M236 336 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0zM300 496 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z" fill="black"></path>
+        </mask>
+    </defs>
+</svg>

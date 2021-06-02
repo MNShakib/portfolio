@@ -1,16 +1,23 @@
 import React from "react";
 import "./ServiceSec.css";
 //Import Icons
-import clock from "../img/clock.svg";
-import diaphragm from "../img/diaphragm.svg";
-import money from "../img/money.svg";
-import teamwork from "../img/teamwork.svg";
-import home2 from "../img/home2.png";
+// import clock from "../img/clock.svg";
+// import diaphragm from "../img/diaphragm.svg";
+// import money from "../img/money.svg";
+// import teamwork from "../img/teamwork.svg";
+import code from "../img/web_code.svg";
 //Styles
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
 import { scrollReveal } from "../animation";
 import { useScroll } from "./useScroll";
+//Import Circular Progress
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
+
+// Animation
+import { easeQuadInOut } from "d3-ease";
+import AnimatedProgressProvider from "./AnimatedProgressProvider";
 
 const ServicesSection = () => {
   const [element, controls] = useScroll();
@@ -23,7 +30,7 @@ const ServicesSection = () => {
     >
       <Description>
         <h2>
-          High <span>quality</span> services
+          High <span>quality</span> skills
         </h2>
         {/* <Cards>
           <Card>
@@ -156,31 +163,122 @@ const ServicesSection = () => {
                   <h3>Professional Skills</h3>
                   <ul className="mh-professional-progress">
                     <li>
-                      <div
-                        className="mh-progress mh-progress-circle"
-                        data-progress="95"
-                      ></div>
+                      <AnimatedProgressProvider
+                        valueStart={0}
+                        valueEnd={95}
+                        duration={1.4}
+                        easingFunction={easeQuadInOut}
+                        norepeat
+                      >
+                        {(value) => {
+                          const roundedValue = Math.round(value);
+                          return (
+                            <div className="c">
+                              <CircularProgressbar
+                                value={value}
+                                text={`${roundedValue}%`}
+                                strokeWidth={5}
+                                styles={buildStyles({
+                                  pathTransition: "none",
+                                  pathColor: "#23d997",
+                                  textColor: "white",
+                                  trailColor: "black",
+                                })}
+                              />
+                            </div>
+                          );
+                        }}
+                      </AnimatedProgressProvider>
                       <div className="pr-skill-name">Communication</div>
                     </li>
                     <li>
-                      <div
+                      <AnimatedProgressProvider
                         className="mh-progress mh-progress-circle"
-                        data-progress="90"
-                      ></div>
+                        valueStart={0}
+                        valueEnd={90}
+                        duration={1.4}
+                        easingFunction={easeQuadInOut}
+                        norepeat
+                      >
+                        {(value) => {
+                          const roundedValue = Math.round(value);
+                          return (
+                            <div className="c">
+                              <CircularProgressbar
+                                value={value}
+                                text={`${roundedValue}%`}
+                                strokeWidth={5}
+                                styles={buildStyles({
+                                  width: "90px",
+                                  height: "90px",
+                                  pathTransition: "none",
+                                  pathColor: "#23d997",
+                                  textColor: "white",
+                                  trailColor: "black",
+                                })}
+                              />
+                            </div>
+                          );
+                        }}
+                      </AnimatedProgressProvider>
                       <div className="pr-skill-name">Team Work</div>
                     </li>
                     <li>
-                      <div
-                        className="mh-progress mh-progress-circle"
-                        data-progress="80"
-                      ></div>
+                      <AnimatedProgressProvider
+                        valueStart={0}
+                        valueEnd={80}
+                        duration={1.4}
+                        easingFunction={easeQuadInOut}
+                        norepeat
+                      >
+                        {(value) => {
+                          const roundedValue = Math.round(value);
+                          return (
+                            <div className="c">
+                              <CircularProgressbar
+                                value={value}
+                                text={`${roundedValue}%`}
+                                strokeWidth={5}
+                                styles={buildStyles({
+                                  pathTransition: "none",
+                                  pathColor: "#23d997",
+                                  textColor: "white",
+                                  trailColor: "black",
+                                })}
+                              />
+                            </div>
+                          );
+                        }}
+                      </AnimatedProgressProvider>
                       <div className="pr-skill-name">Perseverance</div>
                     </li>
                     <li>
-                      <div
-                        className="mh-progress mh-progress-circle"
-                        data-progress="70"
-                      ></div>
+                      <AnimatedProgressProvider
+                        valueStart={0}
+                        valueEnd={70}
+                        duration={1.4}
+                        easingFunction={easeQuadInOut}
+                        norepeat
+                      >
+                        {(value) => {
+                          const roundedValue = Math.round(value);
+                          return (
+                            <div className="c">
+                              <CircularProgressbar
+                                value={value}
+                                text={`${roundedValue}%`}
+                                strokeWidth={5}
+                                styles={buildStyles({
+                                  pathTransition: "none",
+                                  pathColor: "#23d997",
+                                  textColor: "white",
+                                  trailColor: "black",
+                                })}
+                              />
+                            </div>
+                          );
+                        }}
+                      </AnimatedProgressProvider>
                       <div className="pr-skill-name">Creativity</div>
                     </li>
                   </ul>
@@ -191,7 +289,7 @@ const ServicesSection = () => {
         </section>
       </Description>
       <Image>
-        <img alt="camera" src={home2} />
+        <img alt="camera" src={code} />
       </Image>
     </Services>
   );

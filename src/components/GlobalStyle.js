@@ -6,6 +6,23 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box
 }
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #23d997;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
 html{
     @media (max-width: 1200px){
         font-size: 75%;

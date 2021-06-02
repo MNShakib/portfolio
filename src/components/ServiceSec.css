@@ -136,3 +136,10 @@
 .mh-progress path:nth-child(2) {
   stroke: #23d997 !important;
 }
+
+.c {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
