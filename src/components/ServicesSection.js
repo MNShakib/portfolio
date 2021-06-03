@@ -74,12 +74,12 @@ const ServicesSection = () => {
                         <div className="pracial">
                           <div className="info">
                             <div className="nome">HTML</div>
-                            <div className="percentage-num">90%</div>
+                            <div className="percentage-num">88%</div>
                           </div>
                           <div className="progress-bar">
                             <div
                               className="percentagem"
-                              style={{ width: "90%" }}
+                              style={{ width: "88%" }}
                             ></div>
                           </div>
                         </div>
@@ -88,12 +88,12 @@ const ServicesSection = () => {
                         <div className="pracial">
                           <div className="info">
                             <div className="nome">CSS</div>
-                            <div className="percentage-num">90%</div>
+                            <div className="percentage-num">87%</div>
                           </div>
                           <div className="progress-bar">
                             <div
                               className="percentagem"
-                              style={{ width: "90%" }}
+                              style={{ width: "85%" }}
                             ></div>
                           </div>
                         </div>
@@ -102,12 +102,12 @@ const ServicesSection = () => {
                         <div className="pracial">
                           <div className="info">
                             <div className="nome">JavaScript</div>
-                            <div className="percentage-num">86%</div>
+                            <div className="percentage-num">81%</div>
                           </div>
                           <div className="progress-bar">
                             <div
                               className="percentagem"
-                              style={{ width: "86%" }}
+                              style={{ width: "81%" }}
                             ></div>
                           </div>
                         </div>
@@ -130,12 +130,12 @@ const ServicesSection = () => {
                         <div className="pracial">
                           <div className="info">
                             <div className="nome">Node.js</div>
-                            <div className="percentage-num">65%</div>
+                            <div className="percentage-num">60%</div>
                           </div>
                           <div className="progress-bar">
                             <div
                               className="percentagem"
-                              style={{ width: "65%" }}
+                              style={{ width: "60%" }}
                             ></div>
                           </div>
                         </div>
@@ -144,12 +144,12 @@ const ServicesSection = () => {
                         <div className="pracial">
                           <div className="info">
                             <div className="nome">MongoDB</div>
-                            <div className="percentage-num">70%</div>
+                            <div className="percentage-num">60%</div>
                           </div>
                           <div className="progress-bar">
                             <div
                               className="percentagem"
-                              style={{ width: "70%" }}
+                              style={{ width: "60%" }}
                             ></div>
                           </div>
                         </div>
