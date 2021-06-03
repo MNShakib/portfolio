@@ -11,23 +11,11 @@ import ignite from "../img/ignite.png";
 import zoom_clone from "../img/zoom-clone00.png";
 import gdocs from "../img/google_docs.png";
 
-// import "./bg.svg";
 //Animations
 import { motion } from "framer-motion";
-import {
-  sliderContainer,
-  slider,
-  pageAnimation,
-  // fade,
-  // photoAnim,
-  // lineAnim,
-} from "../animation";
-// import { useScroll } from "../components/useScroll";
-// import ScrollTop from "../components/ScrollTop";
+import { sliderContainer, slider, pageAnimation, fade } from "../animation";
 
 const OurWork = () => {
-  // const [element, controls] = useScroll();
-  // const [element2, controls2] = useScroll();
   return (
     <Work exit="exit" variants={pageAnimation} initial="hidden" animate="show">
       <motion.div variants={sliderContainer}>
@@ -36,67 +24,44 @@ const OurWork = () => {
         <Frame3 variants={slider}></Frame3>
         <Frame4 variants={slider}></Frame4>
       </motion.div>
-      {/* <Movie>
-        <motion.h2 variants={fade}>The Athlete</motion.h2>
-        <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-athlete">
-          <Hide>
-            <motion.img variants={photoAnim} src={athlete} alt="athlete" />
-          </Hide>
-        </Link>
-      </Movie>
-
-      <Movie ref={element} variants={fade} animate={controls} initial="hidden">
-        <h2>The Racer</h2>
-        <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-racer">
-          <img src={theracer} alt="theracer" />
-        </Link>
-      </Movie>
-
-      <Movie
-        ref={element2}
-        variants={fade}
-        animate={controls2}
-        initial="hidden"
-      >
-        <h2>Good Times</h2>
-        <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/good-times">
-          <img src={goodtimes} alt="goodtimes" />
-        </Link>
-      </Movie>
-      <ScrollTop /> */}
-      {/* <div className="body"> */}
-      <section>
+      <motion.section variants={fade}>
         <Card
           image={burgerBuilderApp}
           title="Burger Builder App"
           description=" Burger builder app let you order coustomize burger with
-                  authentication functionality."
+          authentication functionality."
+          link="https://react-my-burger-a8d4f.web.app/"
+          git="https://github.com/MNShakib/burger-builder-app"
         />
         <Card
           image={reactPlayer}
           title="React Player"
           description="Play your favorite song with the mood."
+          link="https://react-player01.netlify.app/"
+          git="https://github.com/MNShakib/react-player"
         />
         <Card
           image={ignite}
           title="Ignite"
           description="Search and see the details of all world games."
+          link="https://ignite-game-detail.netlify.app/"
+          git="https://github.com/MNShakib/ignite-dev"
         />
         <Card
           image={zoom_clone}
           title="Zoom Clone"
           description="Zoom Clone is a video conferencing tool that lets you host virtual one-on-one or team meetings easily.. Add people by simply sharing the url."
+          link="https://zoom-clone-0-1.herokuapp.com/"
+          git="https://github.com/MNShakib/zoom-clone"
         />
         <Card
           image={gdocs}
           title="Google Docs Clone"
           description="Google Docs Clone is a very powerful real-time collaboration and document authoring tool. Multiple users can edit a document at the same time, while seeing each others' changes instantaneously."
+          link=""
+          git="https://github.com/MNShakib/google-docs-clone-0.0"
         />
-      </section>
-      {/* </div> */}
+      </motion.section>
     </Work>
   );
 };
@@ -116,23 +81,6 @@ const Work = styled(motion.div)`
     padding: 1rem 0rem;
   }
 `;
-// const Movie = styled(motion.div)`
-//   padding-bottom: 10rem;
-//   .line {
-//     height: 0.5rem;
-//     background: #23d997;
-//     margin-bottom: 3rem;
-//   }
-//   img {
-//     width: 100%;
-//     height: 70vh;
-//     object-fit: cover;
-//   }
-// `;
-// const Hide = styled.div`
-//   overflow: hidden;
-// `;
-
 //Frame Animation
 const Frame1 = styled(motion.div)`
   position: fixed;

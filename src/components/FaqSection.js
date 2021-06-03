@@ -40,7 +40,7 @@ const FaqSection = () => {
             </a>
           </li>
           <li>
-            <i class="fab fa-github" size="3"></i>
+            <i class="fab fa-github"></i>
             <a href="https://github.com/MNShakib">Github</a>
           </li>
         </ul>
